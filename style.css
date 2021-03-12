@@ -5,11 +5,11 @@ html, body, div, p, ul, li {
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Serif';
     font-weight: 100;
   }
   .nav {
-    background: #000;
+    background: #01B1AF;
     height: 90px;
     font-size: 24px;
     font-family: 'Times New Roman', Times, serif;
@@ -22,11 +22,11 @@ html, body, div, p, ul, li {
     padding: 0 60px;
   }
   .nav li:hover {
-    background: rgb(94, 91, 91);
+    background: #9A7DB8;
     transition: background .3s;
   }
   .nav-link {
-    color: #fff;
+    color: #BADA55;
     text-decoration: none;
   }
   .logo{
