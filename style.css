@@ -31,5 +31,17 @@ html, body, div, p, ul, li {
   }
   .logo{
   width: 180px;
-  align: right;
+  box-align: right;
   }
+  
+  nav {
+    background: #01B1AF;
+    height: 90px;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .dropdown-item{
+    color:#BADA55;
+    background-color:#9A7DB8;
+  }
+  
