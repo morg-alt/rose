@@ -8,23 +8,6 @@ html, body, div, p, ul, li {
     font-family: 'Serif';
     font-weight: 100;
   }
-  .nav {
-    background: #01B1AF;
-    height: 90px;
-    font-size: 24px;
-    font-family: 'Times New Roman', Times, serif;
-  }
-  .nav li {
-    display: inline-block;
-    list-style: none;
-    height: 80px;
-    line-height: 60px; 
-    padding: 0 60px;
-  }
-  .nav li:hover {
-    background: #9A7DB8;
-    transition: background .3s;
-  }
   .nav-link {
     color: #BADA55;
     text-decoration: none;
@@ -34,14 +17,39 @@ html, body, div, p, ul, li {
   box-align: right;
   }
   
-  nav {
+  .navbar {
     background: #01B1AF;
     height: 90px;
     font-size: 24px;
     font-family: 'Times New Roman', Times, serif;
+    text-align: center;
   }
   .dropdown-item{
     color:#BADA55;
     background-color:#9A7DB8;
   }
-  
+  .nav-link:hover {
+    background: #9A7DB8;
+    transition: background .3s;
+    color: #BADA55;
+  }
+  .dropdown-item{
+    text-align: left;
+  }
+  .dropdown-item:hover {
+    background: #01B1AF;
+    transition: background .3s;
+    color: #BADA55;
+  }
+  .nav-item{
+    padding: 0 30px;
+    
+  }
+  .logo{
+    width: 70px;
+    height: auto;
+  }
+  tr{
+    border-width: 5px;
+    text-align: center;
+  }
