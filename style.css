@@ -56,11 +56,35 @@ html, body, div, p, ul, li {
   }
   td{
     border-width: 5px;
+    font-size: 50px;
   }
   table{
     border-width: 5px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 600px;
+  }
+  .table-name{
+    padding-left: 35px;
+    padding-right: 25px;
+  }
+  .table-name1{
+    padding-left: 35px;
+    padding-right: 25px;
+  }
+  
+  .table-top-left{
+    margin-left: 400px;
+  }
+  .table-bottom-left{
+    margin-left: 325px;
+    margin-top: 35px;
+  }
+  .table-top-right{
+    margin-left: 825px;
+    margin-top: -175px;
+  }
+  .table-bottom-right{
+    margin-left: 850px;
+    margin-top: 35px;
   }
   .sessions{
     font-size: 70px;
@@ -76,5 +100,10 @@ html, body, div, p, ul, li {
     margin-right: auto;
     margin-left: 500px;
   }
-
- 
+  .d-block {
+    width:100%;
+    height:100px;
+  }
+  .carousel-pic{
+    height: fill;
+  }
