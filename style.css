@@ -122,6 +122,10 @@ html, body, div, p, ul, li {
     margin-right: auto;
     margin-left: 545px;
   }
+.bio{
+  text-align: center;
+  font-size: 20px;
+}
 
 
 
