@@ -26,6 +26,7 @@ html, body, div, p, ul, li {
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     padding-top: 75px;
+    flex-direction: column;
   }
   .dropdown-item{
     color:#BADA55;
@@ -50,9 +51,7 @@ html, body, div, p, ul, li {
   }
   .logo-big{
     width: 210px;
-    height: auto;
-    margin-top: -300px;
-    margin-right: 700px;
+    height: auto
   }
   .logo{
     width: 70px;
