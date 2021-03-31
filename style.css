@@ -15,17 +15,13 @@ html, body, div, p, ul, li {
     color: #BADA55;
     text-decoration: none;
   }
-  .logo{
-  width: 180px;
-  box-align: right;
-  }
   .navbar {
     background: #01B1AF;
     height: 200px;
     font-size: 24px;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
-    padding-top: 75px;
+    padding-top: 20px;
     flex-direction: column;
   }
   .dropdown-item{
@@ -49,13 +45,14 @@ html, body, div, p, ul, li {
     padding: 0 30px;
     
   }
-  .logo-big{
-    width: 210px;
-    height: auto
-  }
   .logo{
     width: 70px;
     height: auto;
+    box-align: right;
+  }
+  .logo-top{
+    width: 200px;
+    height: 81px;
   }
   tr{
     border-width: 5px;
@@ -126,5 +123,22 @@ html, body, div, p, ul, li {
   font-size: 20px;
 }
 
-
-
+#important{
+  width: 1250px;
+  height: ;
+}
+.home-text{
+  text-align: center;
+  font-family: Tahoma;
+  padding-right: 450px;
+  padding-left: 450px;
+}
+.home-body{
+  text-align: center;
+  font-family: Tahoma;
+  padding-right: 150px;
+  padding-left: 150px;
+}
+.triimage1{
+  padding-right: 700px;
+}
