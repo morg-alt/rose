@@ -94,10 +94,10 @@ html, body, div, p, ul, li {
     font-size: 70px;
   }
   .carousel-item{
-    width: 35%;
-    height: 35%;
+    width: 75%;
+    height: 75%;
     margin-right: auto;
-    margin-left: 545px;
+    margin-left: 200px;
   }
   #carouselIndicators{
     color: red;
@@ -141,5 +141,9 @@ html, body, div, p, ul, li {
   padding: 200px;
   
   width: 1865px;
+  height: auto;
+}
+.about-picture{
+  width: 500px;
   height: auto;
 }
