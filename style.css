@@ -10,29 +10,29 @@ html, body, div, p, ul, li {
     font-weight: 100;
   } 
   body{
-    background-color: #E6DFCF;
+    background-color: #02f7d6;
   }
   .nav-link {
-    color: #BADA55;
+    color: #b419b9;
     text-decoration: none;
+    text-align: right;
+    padding-left: 150px;
   }
   .navbar {
-    background: #01B1AF;
+    background: #02f7d6;
     height: 200px;
     font-size: 24px;
     font-family: 'Times New Roman', Times, serif;
-    text-align: center;
-    padding-top: 20px;
-    flex-direction: column;
+    flex-direction: row;
   }
   .dropdown-item{
     color:#BADA55;
     background-color:#9A7DB8;
   }
   .nav-link:hover {
-    background: #9A7DB8;
-    transition: background .3s;
-    color: #BADA55;
+
+    transition: 0.5s;
+    color: rgb(247, 252, 247);
   }
   .dropdown-item{
     text-align: left;
@@ -47,13 +47,13 @@ html, body, div, p, ul, li {
     
   }
   .logo{
-    width: 70px;
+    width: 350px;
     height: auto;
-    box-align: right;
+    flex-direction: column;
   }
   .logo-top{
-    width: 200px;
-    height: 81px;
+    width: 100px;
+    height: auto;
   }
   tr{
     border-width: 5px;
@@ -68,6 +68,7 @@ html, body, div, p, ul, li {
   table{
     border-width: 5px;
     margin-left: 600px;
+    border-color:rgb(247, 252, 247);
   }
   .table-name{
     padding-left: 35px;
@@ -146,4 +147,11 @@ html, body, div, p, ul, li {
 .about-picture{
   width: 500px;
   height: auto;
+}
+.contact-background{
+  background-image: url(img/ocean-backgound-website.png);
+}
+.logo-text{
+  font-family: 'Tangerine', cursive;
+  font-size: 50px;
 }
