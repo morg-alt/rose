@@ -4,9 +4,8 @@ html, body, div, p, ul, li {
     padding: 0;
     border: 0;
     font-size: 100%;
-    font: inherit;
+    font-family: 'Old Standard TT', serif;
     vertical-align: baseline;
-    font-family: 'Snell+Roundhand';
     font-weight: 100;
   } 
   body{
@@ -15,31 +14,28 @@ html, body, div, p, ul, li {
   .nav-link {
     color: #b419b9;
     text-decoration: none;
-    text-align: right;
-    padding-left: 150px;
+    text-align: center;
+    padding-left: 350px;
   }
   .navbar {
     background: #02f7d6;
     height: 200px;
     font-size: 24px;
-    font-family: 'Times New Roman', Times, serif;
-    flex-direction: row;
+    font-family: 'Old Standard TT', serif;
+    flex-direction: column;
   }
   .dropdown-item{
     color:#BADA55;
     background-color:#9A7DB8;
+    text-align: center;
   }
   .nav-link:hover {
-
     transition: 0.5s;
     color: rgb(247, 252, 247);
   }
-  .dropdown-item{
-    text-align: left;
-  }
   .dropdown-item:hover {
     background: #01B1AF;
-    transition: background .3s;
+    transition: .3s;
     color: #BADA55;
   }
   .nav-item{
@@ -52,8 +48,9 @@ html, body, div, p, ul, li {
     flex-direction: column;
   }
   .logo-top{
-    width: 100px;
+    width: 750px;
     height: auto;
+    padding-right: 600px;
   }
   tr{
     border-width: 5px;
@@ -145,13 +142,16 @@ html, body, div, p, ul, li {
   height: auto;
 }
 .about-picture{
-  width: 500px;
-  height: auto;
+  width: 900px;
+  height: 650px;
+  padding-left: 150px;
 }
 .contact-background{
   background-image: url(img/ocean-backgound-website.png);
 }
 .logo-text{
-  font-family: 'Tangerine', cursive;
+  font-family: 'Tangerine';
   font-size: 50px;
+  text-align: center;
+  padding-left: 500px;
 }
