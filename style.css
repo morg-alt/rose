@@ -1,155 +1,186 @@
+html,
+body,
+div,
+p,
+ul,
+li {
+  font-size: 100%;
+  font-family: 'Old Standard TT', serif;
+  vertical-align: baseline;
+  font-weight: 100;
+}
 
-html, body, div, p, ul, li {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font-family: 'Old Standard TT', serif;
-    vertical-align: baseline;
-    font-weight: 100;
-  } 
-  body{
-    background-color: #02f7d6;
-  }
-  .nav-link {
-    color: #b419b9;
-    text-decoration: none;
-    text-align: center;
-    padding-left: 350px;
-  }
-  .navbar {
-    background: #02f7d6;
-    height: 200px;
-    font-size: 24px;
-    font-family: 'Old Standard TT', serif;
-    flex-direction: column;
-  }
-  .dropdown-item{
-    color:#BADA55;
-    background-color:#9A7DB8;
-    text-align: center;
-  }
-  .nav-link:hover {
-    transition: 0.5s;
-    color: rgb(247, 252, 247);
-  }
-  .dropdown-item:hover {
-    background: #01B1AF;
-    transition: .3s;
-    color: #BADA55;
-  }
-  .nav-item{
-    padding: 0 30px;
-    
-  }
-  .logo{
-    width: 350px;
-    height: auto;
-    flex-direction: column;
-  }
-  .logo-top{
-    width: 750px;
-    height: auto;
-    padding-right: 600px;
-  }
-  tr{
-    border-width: 5px;
-    text-align: center;
-  }
-  td{
-    border-width: 5px;
-    font-size: 50px;
-    border: 1px;
-    border-color: #01B1AF;
-  }
-  table{
-    border-width: 5px;
-    margin-left: 600px;
-    border-color:rgb(247, 252, 247);
-  }
-  .table-name{
-    padding-left: 35px;
-    padding-right: 25px;
-  }
-  .table-name1{
-    padding-left: 35px;
-    padding-right: 25px;
-  }
-  
-  .table-top-left{
-    margin-left: 530px;
-    margin-top: 155px;
-  }
-  .table-bottom-left{
-    margin-left: 395px;
-    margin-top: 35px;
-  }
-  .table-bottom-right{
-    margin-left: 920px;
-    margin-top: -70px;
-  }
-  .sessions{
-    font-size: 70px;
-  }
-  .carousel-item{
-    width: 75%;
-    height: 75%;
-    margin-right: auto;
-    margin-left: 200px;
-  }
-  #carouselIndicators{
-    color: red;
-    margin-right: auto;
-    margin-left: 545px;
-  }
-  .carousel-control-next{
-    margin-left: 530px;
-  
-  }
-  .carousel-control-next-icon{
-    margin-left: 530px;
-  }
-  .carousel-item1{
-    width: 35%;
-    height: 35%;
-    margin-right: auto;
-    margin-left: 545px;
-  }
-.bio{
+body {
+  background-color: #02f7d6;
+}
+
+.nav-link {
+  color: #b419b9;
+  text-decoration: none;
+  /* text-align: center; */
+  /* padding-left: 350px; */
+}
+
+.navbar {
+  background: #02f7d6;
+  height: 200px;
+  font-size: 24px;
+  font-family: 'Old Standard TT', serif;
+  /* flex-direction: column; */
+}
+
+.dropdown-item {
+  color: #BADA55;
+  background-color: #9A7DB8;
+  /* text-align: center; */
+}
+
+.nav-link:hover {
+  transition: 0.5s;
+  color: rgb(247, 252, 247);
+}
+
+.dropdown-item:hover {
+  background: #01B1AF;
+  transition: .3s;
+  color: #BADA55;
+}
+
+.nav-item {
+  /* padding: 0 30px; */
+
+}
+
+.logo {
+  width: 350px;
+  height: auto;
+  /* flex-direction: column; */
+}
+
+.logo-top {
+  width: 750px;
+  height: auto;
+  /* padding-right: 600px; */
+}
+
+tr {
+  border-width: 5px;
+  text-align: center;
+}
+
+td {
+  border-width: 5px;
+  font-size: 50px;
+  border: 1px;
+  border-color: #01B1AF;
+}
+
+table {
+  border-width: 5px;
+  margin-left: 600px;
+  border-color: rgb(247, 252, 247);
+}
+
+.table-name {
+  padding-left: 35px;
+  padding-right: 25px;
+}
+
+.table-name1 {
+  padding-left: 35px;
+  padding-right: 25px;
+}
+
+.table-top-left {
+  margin-left: 530px;
+  margin-top: 155px;
+}
+
+.table-bottom-left {
+  margin-left: 395px;
+  margin-top: 35px;
+}
+
+.table-bottom-right {
+  margin-left: 920px;
+  margin-top: -70px;
+}
+
+.sessions {
+  font-size: 70px;
+}
+
+.carousel-item {
+  width: 75%;
+  height: 75%;
+  margin-right: auto;
+  margin-left: 200px;
+}
+
+#carouselIndicators {
+  color: red;
+  margin-right: auto;
+  margin-left: 545px;
+}
+
+.carousel-control-next {
+  margin-left: 530px;
+
+}
+
+.carousel-control-next-icon {
+  margin-left: 530px;
+}
+
+.carousel-item1 {
+  width: 35%;
+  height: 35%;
+  margin-right: auto;
+  margin-left: 545px;
+}
+
+.bio {
   text-align: left;
   font-size: 30px;
 }
-.buisness-bio{
+
+.buisness-bio {
   text-align: right;
   font-size: 30px
 }
-.home-text{
+
+.home-text {
   text-align: center;
   font-family: Tahoma;
   padding-right: 450px;
   padding-left: 450px;
 }
-.home-body{
+
+.home-body {
   text-align: center;
   font-family: Tahoma;
   padding-right: 150px;
   padding-left: 150px;
 }
-.triimage1{
+
+.triimage1 {
   padding: 200px;
-  
+
   width: 1865px;
   height: auto;
 }
-.about-picture{
+
+.about-picture {
   width: 900px;
   height: 650px;
   padding-left: 150px;
 }
-.contact-background{
+
+.contact-background {
   background-image: url(img/ocean-backgound-website.png);
 }
-.logo-text{
+
+.logo-text {
   font-family: 'Tangerine';
   font-size: 50px;
   text-align: center;
