@@ -11,9 +11,7 @@
 
 html { 
 
-  min-height: 100%; 
-
-  background: dimgrey; 
+  min-height: 100%;
 
 } 
 
@@ -34,7 +32,6 @@ html {
   background-position: 50% 50%; 
 
   background-repeat: no-repeat; 
-
 } 
 
  
@@ -42,7 +39,7 @@ html {
 
 .current-image-wrapper img { 
 
-  display: block; 
+  display: inline-block; 
 
   max-width: 100%; 
 
@@ -65,9 +62,13 @@ html {
 
 } 
 
- 
- 
-
+.thumbnails {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+width: 100%;
+}
 .thumbnails li, 
 
 .thumbnails a, 
@@ -79,8 +80,7 @@ html {
   width: auto; 
 
   height: 6rem; 
-
-  border: none; 
+});
 
 } 
 
@@ -206,12 +206,9 @@ nav {
 
 /*Styling logo*/ 
 
-.logo { 
-
-  padding: 3hw; 
-
-  text-align: center; 
-
+.logo {
+  padding-left: 100px;
+  text-align: center;
 } 
 
  
@@ -244,7 +241,7 @@ nav {
 
   align-items: center; 
 
-  text-transform: uppercase; 
+
 
 } 
 
@@ -896,38 +893,6 @@ table {
 
 } 
 
- 
- 
- 
-
-.triimage1 { 
-
- 
- 
-
-  padding: 200px; 
-
- 
- 
-
-  width: 1865px; 
-
- 
- 
-
-  height: auto; 
-
- 
- 
-
-} 
-
- 
- 
- 
- 
- 
-
 .about-picture { 
 
  
@@ -989,11 +954,6 @@ table {
   text-align: right; 
 
   padding-left: 10px; 
-
- 
- 
- 
-
 } 
 
  
