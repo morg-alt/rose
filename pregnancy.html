@@ -1,58 +1,20 @@
 <!DOCTYPE html> 
 <html lang="en"> 
-
- 
- 
-
 <head> 
-
     <meta charset="UTF-8"> 
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-
     <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
-
- 
- 
-
     <meta name="keywords" content="Sea Mama Photography, Jackson, TN, Photographer, professional, Rose Doumitt"> 
-
- 
- 
-
     <meta name="author" content="Totally Technoids, Amir Doumitt, Michael Eberle, Jadyn Hunt"> 
-
- 
- 
-
     <meta name="description" content="Home page for the Sea Mama Photography Website"> 
-
- 
- 
-
     <title>SeaMama Photography</title> 
-
     <link rel="stylesheet" href="style.css" /> 
-
     <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap" rel="stylesheet"> 
-
- 
- 
-
     <link rel="preconnect" href="https://fonts.gstatic.com"> 
-
- 
- 
-
     <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap" rel="stylesheet"> 
-
 </head> 
 
- 
- 
-
 <body> 
-
     <nav>
         <div class="logo"> 
             <a href="index.html"> 
@@ -72,6 +34,7 @@
             <li><a href="contact.html">Contact me</a></li> 
         </ul>
     </nav> 
+
     <script src="nav.js"></script> 
 
     <br> 
@@ -86,114 +49,147 @@
 
     <br> 
 
-    <div id='gallery' class='gallery'> 
+   
+    <br>
 
-        <div id='lg-wrap' class='current-image-wrapper'> 
+    <br>
 
-            <img id='large' data-idx='0' src='img/1maggieseated.jpg'> 
+    <br>
+    <br>
+    <br>
+        <div class="imageshow-container">
 
-        </div class="thumb"> 
+        <div class="images fade" id="vertical">
+            <img src="img/1maggieseated.jpg" style="width: 100%;">
+        </div>
+        <div class="images fade" id="vertical">
+            <img src="img/2maggieyellowstone.jpg" style="width: 100%;">
+        </div>
 
-        <br> 
+        <div class="images fade" id="vertical">
+            <img src="img/3sue.jpg" style="width: 100%;">
+        </div>
 
-        <ul id='thumbnails' class='thumbnails'> 
+        <div class="images fade" id="horizonal">
+            <img src="img/4solange 1.jpg" style="width:100%">
+        </div>
 
-            <li> 
+        <div class="images fade" id="vertical">
+            <img src="img/5solange 2.jpg" style="width:100%">
+        </div>
+        <div class="images fade" id="vertical">
+            <img src="img/6dealek.jpg" style="width:100%">
+        </div>
+        <div class="images fade" id="vertical">
+            <img src="img/7maggie.jpg" style="width:100%">
+        </div>
+        <div class="images fade" id="vertical">
+            <img src="img/8renata1.jpg" style="width:100%">
+        </div>
+        <div class="images fade" id="vertical">
+            <img src="img/9renata2.jpg" style="width:100%">
+        </div>
+        <div class="images fade" id="vertical">
+            <img src="img/10chuckandde.jpg" style="width:100%">
+        </div>
+        <div class="images fade" id="vertical">
+            <img src="img/11debwtwins.jpg" style="width:100%">
+        </div>
+        <div class="images fade" id="vertical">
+            <img src="img/12rose1.jpg" style="width:100%">
+        </div>
+        <div class="images fade" id="vertical">
+            <img src="img/13rose2.jpg" style="width:100%">
+        </div>
+        <div class="images fade" id="vertical">
+            <img src="img/14kathydexlandscape.jpg" style="width:100%">
+        </div>
+        <div class="images fade" id="vertical">
+            <img src="img/15juliannaandjoao.jpg" style="width:100%">
+        </div>
+        <div class="images fade" id="vertical">
+            <img src="img/16solange3.jpg" style="width:100%">
+        </div>
+        <div class="images fade" id="vertical">
+            <img src="img/17roberta.jpg" style="width:100%">
+        </div>
+        <div class="images fade" id="vertical">
+            <img src="img/SuzannaAndSun 1.jpg" style="width:100%">
+        </div>
+        <div class="images fade" id="vertical">
+            <img src="img/19yvonnewpurpleflowers.jpg" style="width:100%">
+        </div>
+       
+       
 
-                <a href='img/1maggieseated.jpg'> 
+        <a class="prev" onclick="nextImage(-1)">&#10096;</a>
+        <a class="next" onclick="nextImage(1)">&#10097;</a>
+    </div>
+    <br>
 
-                    <img data-idx='0' src='img/1maggieseated.jpg'> 
+    <div style="text-align:center">
+        <span class="spot" onclick="currentImage(1)"></span>
+        <span class="spot" onclick="currentImage(2)"></span>
+        <span class="spot" onclick="currentImage(3)"></span>
+        <span class="spot" onclick="currentImage(4)"></span>
+        <span class="spot" onclick="currentImage(5)"></span>
+        <span class="spot" onclick="currentImage(6)"></span>
+        <span class="spot" onclick="currentImage(7)"></span>
+        <span class="spot" onclick="currentImage(8)"></span>
+        <span class="spot" onclick="currentImage(9)"></span>
+        <span class="spot" onclick="currentImage(10)"></span>
+        <span class="spot" onclick="currentImage(11)"></span>
+        <span class="spot" onclick="currentImage(12)"></span>
+        <span class="spot" onclick="currentImage(13)"></span>
+        <span class="spot" onclick="currentImage(14)"></span>
+        <span class="spot" onclick="currentImage(15)"></span>
+        <span class="spot" onclick="currentImage(16)"></span>
+        <span class="spot" onclick="currentImage(17)"></span>
+        <span class="spot" onclick="currentImage(18)"></span>
+        <span class="spot" onclick="currentImage(19)"></span>
 
-                </a> 
+    </div>
+    <script>
+        var imageIndex = 1;
+        showImages(imageIndex);
 
-            </li> 
+        function nextImage(n) {
+            showImages((imageIndex += n));
+        }
 
-            <li> 
+        function currentImage(n) {
+            showImages((imageIndex = n));
+        }
 
-                <a href='img/2maggieyellowstone.jpg'> 
-
-                    <img data-idx='1' src='img/2maggieyellowstone.jpg'> 
-
-                </a> 
-
-            </li> 
-
-            <li> 
-
-                <a href='img/3sue.jpg'> 
-
-                    <img data-idx='2' src='img/3sue.jpg'> 
-
-                </a> 
-
-            </li> 
-
-            <li> 
-
-                <a href='img/7maggie.jpg'> 
-
-                    <img data-idx='3' src='img/7maggie.jpg'> 
-
-                </a> 
-
-            </li> 
-
-            <li> 
-
-                <a href='img/8renata1.jpg'> 
-
-                    <img data-idx='4' src='img/8renata1.jpg'> 
-
-                </a> 
-
-            </li> 
-
-            <li> 
-
-                <a href='img/9renata2.jpg'> 
-
-                    <img data-idx='5' src='img/9renata2.jpg'> 
-
-                </a> 
-
-            </li> 
-
-      </li> 
-
-        </ul> 
-
-    </div> 
-
-    <script src="carousel.js"></script> 
-
-    <br> 
-
-    <br> 
-    <br> 
+        function showImages(n) {
+            var i;
+            var images = document.getElementsByClassName("images");
+            var spots = document.getElementsByClassName("spot");
+            if (n > images.length) {
+                imageIndex = 1;
+            }
+            if (n < 1) {
+                imageIndex = images.length;
+            }
+            for (i = 0; i < images.length; i++) {
+                images[i].style.display = "none";
+            }
+            for (i = 0; i < spots.length; i++) {
+                spots[i].className = spots[i].className.replace(" active", "");
+            }
+            images[imageIndex - 1].style.display = "block";
+            spots[imageIndex - 1].className += " active";
+        }
+    </script>
     <br>
     <br>
     <br>
     <br>
-    <br>
-    <br>
-    <br>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+        < script src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js" >
+    </script>
+    </script>
+  </body>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" 
-
-        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"> 
-
- 
- 
-
-    </script> 
-
- 
- 
- 
-
-</body> 
-
- 
- 
-
-</html> 
+  </html>  
