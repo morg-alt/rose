@@ -10,6 +10,12 @@
 
     letter-spacing: 1px;
 
+    font-weight: 300;
+
+}
+
+
+
 
 body {
 
@@ -860,22 +866,18 @@ table {
 .column { 
 
     float: left; 
-  
     width: 22%; 
   
     padding: 5px; 
   
   } 
-.red-back{
-    background-color: red;
-}
-   
+
    
   
   /* Clear floats after image containers */ 
   
   .row::after { 
-  
+    flex-direction: column;
     content: ""; 
   
     clear: both; 
@@ -889,7 +891,7 @@ table {
   
   #first { 
   
-    padding-left: 120px; 
+    padding-left: 250px; 
   
   } 
   
@@ -898,7 +900,7 @@ table {
   
   #second { 
   
-    padding-left: 105px; 
+    padding-left: 250px; 
   
   } 
   
@@ -907,7 +909,7 @@ table {
   
   #third { 
   
-    padding-left: 105px; 
+    padding-left: 400px; 
   
   } 
   
@@ -1110,6 +1112,7 @@ p {
     animation-name: fade;
     animation-duration: 3.5s;
 }
+
 
 @-webkit-keyframes fade {
     from {
